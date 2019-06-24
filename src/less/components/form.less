@@ -1,0 +1,26 @@
+
+.form {
+
+
+  textarea.form-control {
+    width: 100%;
+    max-height: 200px;
+    padding: 10px 10px;
+
+    outline: none;
+    border-radius: 4px;
+
+    color: @font-color;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    resize: vertical;
+
+    transition: box-shadow 0.1s ease-in-out, border 0.1s ease-in-out;
+
+    &:focus {
+      border: 1px solid @background-color;
+      box-shadow: 0 0 4px @background-color;
+    }
+  }
+}

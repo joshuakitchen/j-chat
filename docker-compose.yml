@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: always
+    volumes:
+      - /var/chat.key:/var/chat.key
+

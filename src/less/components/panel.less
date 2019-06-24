@@ -1,0 +1,52 @@
+
+
+.panel {
+  margin: 0px 10px 2em 10px;
+  height: 100%;
+
+  border-radius: @panel-border-radius;
+
+  box-shadow: 0 1px 16px 1px rgba(0, 0, 0, 0.4);
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
+
+  .header, .body, .footer {
+    background-color: darken(white, 3%);
+    padding: @panel-padding;
+
+    border-radius: 0;
+
+    &:first-child {
+      border-radius: @panel-border-radius @panel-border-radius 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 @panel-border-radius @panel-border-radius;
+    }
+  }
+
+  &>.header {
+    border-bottom: 1px solid fade(#8a8a8a, 40%);
+
+    background: @panel-header-background;
+    background-size: auto, 125px 125px;
+    box-shadow: inset 0px 1px 2px rgba(255, 255, 255, 0.2);
+
+    color: @panel-header-color;
+
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 15px #000;
+  }
+
+  &>.body {
+    height: 100%;
+  }
+
+  .footer {
+
+  }
+
+}

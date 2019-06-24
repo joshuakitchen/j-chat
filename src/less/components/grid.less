@@ -1,0 +1,31 @@
+
+.grid {
+
+  .row {
+
+    .generate-columns(@n, @i: 1) when (@i <= @n) {
+      .col-@{i} {
+        width: 100%;
+        float: left;
+      }
+
+      @media (min-width: 992px) {
+        .col-@{i} {
+          width: (@i * 100% / @n);
+          float: left;
+        }
+      }
+
+      .generate-columns(@n, (@i + 1))
+    }
+
+    .generate-columns(@cols);
+
+    &:after {
+      content: ' ';
+      display: table;
+      clear: both;
+    }
+  }
+
+}
