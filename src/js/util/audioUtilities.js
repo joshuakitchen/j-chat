@@ -3,6 +3,9 @@ const sound_map = {
   power: [
     new Audio('/static/audio/power-logo.mp3')
   ],
+  cum: [
+    new Audio('/static/audio/cum.mp3')
+  ],
   nope: [
     new Audio('/static/audio/nope.mp3')
   ],
