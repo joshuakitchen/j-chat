@@ -4,7 +4,7 @@ const sound_map = {
     new Audio('/static/audio/power-logo.mp3')
   ],
   cum: [
-    new Audio('/static/audio/cum-1.mp3')
+    new Audio('/static/audio/cum-1.mp3'),
     new Audio('/static/audio/cum-2.mp3')
   ],
   nope: [
