@@ -14,7 +14,7 @@
   "author": "Joshua Kitchen <joshua.kitchen95@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-nunjucks": "^2.2.3",
     "express-ws": "^4.0.0",
     "helmet": "^3.15.0",
