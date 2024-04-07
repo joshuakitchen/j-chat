@@ -7,4 +7,3 @@ services:
     restart: always
     volumes:
       - /var/chat.key:/var/chat.key
-

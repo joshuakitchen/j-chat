@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "name": "Application",
+      "program": "${workspaceFolder}/src/server/index.ts",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}
