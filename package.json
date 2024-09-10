@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.13.1",
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "express-ws": "^5.0.2",
     "helmet": "^7.1.0",
     "solid-js": "^1.8.16",
